@@ -3,8 +3,7 @@
 *{box-sizing:border-box;}
 .jumbotron{
   margin:0px 0px 60px 0px;
-  height:612px;text-align:center;
-  border:1px solid black;
+  height:750px;text-align:center;
   background-image:url('img/head.jpg');
  background-size:cover;}
 .farm-memu{
