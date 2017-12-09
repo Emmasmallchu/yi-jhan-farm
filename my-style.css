@@ -27,7 +27,6 @@
 #farm-contect{padding:100px;}
 /* 第一段#intruduce開始 */
 #intruduce{
- height: 612px;
  padding:80px 0;margin:90px 0;
  }
 #intruduce .img-circle{position:relative;left:160px;top:50px;width:250px;height:250px}
@@ -37,7 +36,6 @@
 /* 第一段#intruduce結束 */
 /* 第二段#farm-food */
 #farm-food{
-  height: 612px;
   padding:80px 0;margin:90px 0;}
 #farm-food h2{text-align:center;}
 #farm-food h3{text-align:center;}
@@ -47,7 +45,6 @@
 /* 第三段#farm-party開始 */
 .img-rounded{width:400px;height:400px;margin:20px 10px 10px 20px;}
 #farm-party{
-  height: 612px;
   padding:80px 0;margin:90px 0;}
 #farm-party h2{text-align:center;}
 #farm-party h3{text-align:center;}
@@ -57,7 +54,6 @@
 /* 第三段#farm-party結束 */
 /* 第四段#farm-parterner開始 */
 #farm-parterner{
-  height: 612px;
   padding:80px 0;margin:90px 0;}
 #farm-parterner h3{text-align:center;}
 #farm-parterner .img-circle{position:relative;left:15px;width:150px;height:150px;margin:0px 10px 0px -50px;}
@@ -67,7 +63,6 @@
 /* 第四段#farm-parterner結束 */
 /* 第五段#farm-info開始      */
 #farm-info{
-  height: 612px;
   padding:80px 0;margin:90px 0;}
 .info-1{border-radius:88px;height:570px;background-color:#FFF4A6;color:#55626f;}
 .info-1 h3{text-align:center;color:#1F2124}
@@ -77,14 +72,12 @@
 /* 第五段#farm-info結束      */ 
 /* 第六段#farm-free開始 */
 #farm-free{
-  height: 612px;
   padding:100px 0;margin:90px 0;}
 #farm-free h2{text-align:center;}
 #farm-free p{font-size:18px;text-align:center;}
 /* 第六段#farm-free結束 */
 /* 第七段#farm-store開始 */
 #farm-store{
-  height: 612px;
   padding:80px 0;margin:90px 0;}
 #farm-store h2{text-align:center;}
 #farm-store p{text-align:center;font-size:18px;}
