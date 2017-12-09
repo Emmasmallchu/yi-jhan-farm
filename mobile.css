@@ -10,7 +10,6 @@
 /* 共同 */
 
 /*導覽頁*/
-
 .jumbotron{
   padding:200px 0px;
   max-height:618px;
@@ -18,10 +17,10 @@
   background-image:url('https://scontent.ftpe4-2.fna.fbcdn.net/v/t31.0-8/24799477_10204663668028699_8488995721456772172_o.jpg?oh=1fad58758fd4a1c9d31c976363b3bd54&oe=5A924FA2');
  background-size:cover;}
 .farm-memu{
-  max-width:100%;
+  max-width:90%;
   border-radius:10px;
   background-color:#55626f;
-  margin:auto;position:fixed;left:0px;top:0px;z-index:100;
+  position:fixed;left:0px;top:0px;z-index:100;
   }
 .farm-memu>ul>li{
   padding:10px;
@@ -40,9 +39,9 @@
 #intruduce{
  border:1px solid yellow;
  max-width:100%;
- padding:80px 0;margin:90px 0;
+ padding:180px 0;margin:90px 0;
  }
-#intruduce .img-circle{max-width:50%;margin:auto;}
+#intruduce .img-circle{max-width:50%;margin:0% 25%;}
 #intruduce h2{text-align:center;}
 #intruduce p{text-align:center;font-size:16px;}
 #intruduce .col-md-6{max-width:100%;margin:0px -20px;border:1px solid ;}
@@ -52,28 +51,28 @@ iframe{margin:0px 0px 0px 20px;}
 #farm-food img{max-width:100%;}
 #farm-food{
   width:100%;
-  padding:80px 0;margin:90px 0;}
+  padding:180px 0;margin:90px 0;}
 #farm-food h2{text-align:center;}
 #farm-food h3{text-align:center;}
 #farm-food p{text-align:center;font-size:16px;}
-#farm-food .thumbnail{width:200px;height:300px;position:relative;}
+#farm-food .thumbnail{width:70%;margin:15%;}
 /* 第二段#farm-food結束 */
 /* 第三段#farm-party開始 */
 #farm-party{
   width:100%;
-  padding:80px 0;margin:90px 0;}
+  padding:180px 0;margin:90px 0;}
 #farm-party h2{text-align:center;}
 #farm-party h3{text-align:center;}
 #farm-party p{text-align:center;font-size:16px;}
-.info-memo img{width:100%;height:100%}
+.info-memo img{width:70%;height:auto;margin:15%;}
 .info-memo{padding:25px;}
 /* 第三段#farm-party結束 */
 /* 第四段#farm-parterner開始 */
 #farm-parterner{
   width:100%;
-  padding:80px 0;margin:90px 0;}
+  padding:180px 0;margin:90px 0;}
 #farm-parterner h3{text-align:center;}
-#farm-parterner .img-circle{border:1px solid blue;width:50%;margin:0% 25%;height:350px;}
+#farm-parterner .img-circle{border:1px solid blue;width:50%;height:50%;margin:0% 25%;}
 #farm-parterner h2{text-align:center;}
 #farm-parterner span{margin:0px ;color:#B40052;}
 .parterner-part{border:1px solid blue;width:100%;}
@@ -82,7 +81,7 @@ iframe{margin:0px 0px 0px 20px;}
 /* 第五段#farm-info開始      */
 #farm-info{
   width:100%;
-  padding:80px 0;margin:90px 0;}
+  padding:180px 0;margin:90px 0;}
 .info-1{border-radius:10px;height:100%;background-color:#FFF4A6;color:#55626f;}
 .info-1 h3{text-align:center;color:#1F2124}
 .info-1 li{text-align;font-size:15px;}
@@ -92,14 +91,14 @@ iframe{margin:0px 0px 0px 20px;}
 /* 第六段#farm-free開始 */
 #farm-free{
   width:100%;
-  padding:100px 0;margin:90px 0;}
+  padding:180px 0;margin:90px 0;}
 #farm-free h2{text-align:center;}
 #farm-free p{font-size:18px;text-align:center;}
 /* 第六段#farm-free結束 */
 /* 第七段#farm-store開始 */
 #farm-store{
   width:100%;
-  padding:80px 0;margin:90px 0;}
+  padding:180px 0;margin:90px 0;}
 #farm-store h2{text-align:center;}
 #farm-store p{text-align:center;font-size:18px;}
 #farm-store img{width:70%;margin: 3% 15%}
