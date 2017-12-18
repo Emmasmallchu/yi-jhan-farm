@@ -49,12 +49,12 @@ p{font-size:16px;}
   width:40%;margin:5% 30%;
   }
 
-iframe{width:100%;height:450px;}
+iframe{width:100%;height:450px;position: relative;right:50px;}
 /* 第一段#intruduce結束 */
 /* 第二段#farm-food */
 
 #farm-food .thumbnail{
-  width:100%;height:auto;margin:15% 0;}
+  width:100%;height:auto;margin:15% 0;position: relative;right:50px;}
 /* 第二段#farm-food結束 */
 /* 第三段#farm-party開始 */
 .info-memo img{width:130px;height:100px;margin:15px 0px;}
