@@ -16,11 +16,11 @@
   background-image:url('https://scontent.ftpe4-2.fna.fbcdn.net/v/t31.0-8/24799477_10204663668028699_8488995721456772172_o.jpg?oh=1fad58758fd4a1c9d31c976363b3bd54&oe=5A924FA2');
  background-size:cover;}
 .menu-button{
- position:fixed;right:0px;top:10px;z-index:100;
+ position:fixed;right:10px;top:10px;z-index:100;
  background-color:#55626f;color:#ffffff;}
 .menu-button-checkbox{
   position:fixed;
-  right:0px;top:5px;
+  right:10px;top:5px;
   width:30px;height:30px;
   opacity:0;z-index:100;}
 .menu-button-checkbox:checked ~ nav{display:block;}
@@ -52,7 +52,6 @@
 #intruduce .img-circle{max-width:50%;margin:0% 25%;}
 #intruduce h2{text-align:center;}
 #intruduce p{text-align:center;font-size:16px;}
-#intruduce .col-md-6{max-width:100%;margin:0px -20px;border:1px solid ;}
 
 /* 第一段#intruduce結束 */
 /* 第二段#farm-food */
