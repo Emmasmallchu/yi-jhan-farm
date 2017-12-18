@@ -16,11 +16,11 @@
   background-image:url('https://scontent.ftpe4-2.fna.fbcdn.net/v/t31.0-8/24799477_10204663668028699_8488995721456772172_o.jpg?oh=1fad58758fd4a1c9d31c976363b3bd54&oe=5A924FA2');
  background-size:cover;}
 .menu-button{
- position:fixed;right:10px;top:10px;z-index:100;
+ position:fixed;right:20px;top:10px;z-index:100;
  background-color:#55626f;color:#ffffff;}
 .menu-button-checkbox{
   position:fixed;
-  right:10px;top:5px;
+  right:20px;top:5px;
   width:30px;height:30px;
   opacity:0;z-index:100;}
 .menu-button-checkbox:checked ~ nav{display:block;}
@@ -28,13 +28,13 @@
   width:150px;
   border-radius:10px;
   background-color:#55626f;
-  position:fixed;right:0px;top:40px;z-index:100;
+  position:fixed;right:20px;top:40px;z-index:100;
   display:none;}
 .farm-memu>ul>li{
   list-style-type:none;
   width:150px;
   padding:8px;
-  position:relative;right:40px;
+  position:relative;right:50px;
   font-size:14px;}
 .farm-memu>ul>li>a{
   display:block;
