@@ -1,12 +1,12 @@
 /*畫線區*/
 
-.my-container{width:100%;border:1px solid red;}
-#farm-contect{border:1px solid green;}
+.my-container{width:100%;}
+#farm-contect{}
 #intruduce,#farm-food,#farm-party,#farm-parterner,#farm-info,
 #farm-free,#farm-store
-{border:1px solid purple;}
+{}
 
-.col-md-6,.col-md-5,.col-md-7{border:1px solid grey;}
+.col-md-6,.col-md-5,.col-md-7{;}
 /*畫線區*/
 
 /*共同*/
@@ -46,7 +46,7 @@ p{font-size:16px;}
 #farm-contect{}
 /* 第一段#intruduce開始 */
 #intruduce .img-circle{
-  width:40%;margin:5% 30%;border:1px solid green;
+  width:40%;margin:5% 30%;
   }
 
 iframe{width:100%;height:450px;}
@@ -97,4 +97,6 @@ iframe{width:100%;height:450px;}
 .footer{color:#D1FFEA;background-color:#2d472f;border-radius:5px;text-align:center;}
 .footer a{text-decoration: none;}
 /* 腳結束 */
+/*moblie*/
+.menu-button,.menu-button-checkbox {display: none;}
 
