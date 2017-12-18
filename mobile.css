@@ -15,22 +15,32 @@
   text-align:center;
   background-image:url('https://scontent.ftpe4-2.fna.fbcdn.net/v/t31.0-8/24799477_10204663668028699_8488995721456772172_o.jpg?oh=1fad58758fd4a1c9d31c976363b3bd54&oe=5A924FA2');
  background-size:cover;}
+.menu-button{
+ position:fixed;right:0px;top:10px;z-index:100;
+ background-color:#55626f;color:#ffffff;}
+.menu-button-checkbox{
+  position:fixed;
+  right:0px;top:5px;
+  width:30px;height:30px;
+  opacity:0;z-index:100;}
+.menu-button-checkbox:checked ~ nav{display:block;}
 .farm-memu{
-  width:100%;
+  width:150px;
   border-radius:10px;
   background-color:#55626f;
-  position:fixed;left:0px;top:0px;z-index:100;
-  }
+  position:fixed;right:0px;top:40px;z-index:100;
+  display:none;}
 .farm-memu>ul>li{
-  padding:10px;
-  display:inline-block;
-  text-align:center;
+  list-style-type:none;
+  width:150px;
+  padding:8px;
+  position:relative;right:40px;
   font-size:14px;}
 .farm-memu>ul>li>a{
   display:block;
   text-decoration:none;color:#ffffff;}
 .farm-memu>ul>li>a:hover{color:#b5765e;}
-.farm-memu span{display:block;color:#83bb59;}
+.farm-memu span{color:#83bb59;}
 /*導覽頁結束*/
 /* 以下開始內容頁css #farm-contect*/
 #farm-contect{padding:100px 0px;}
@@ -38,19 +48,18 @@
 #intruduce{
  border:1px solid yellow;
  max-width:100%;
- padding:180px 0;margin:90px 0;
+ margin:90px 0;
  }
 #intruduce .img-circle{max-width:50%;margin:0% 25%;}
 #intruduce h2{text-align:center;}
 #intruduce p{text-align:center;font-size:16px;}
 #intruduce .col-md-6{max-width:100%;margin:0px -20px;border:1px solid ;}
-iframe{margin:0px 0px 0px 20px;}
+
 /* 第一段#intruduce結束 */
 /* 第二段#farm-food */
 #farm-food img{max-width:100%;}
 #farm-food{
-  width:100%;
-  padding:180px 0;margin:90px 0;}
+  width:100%;}
 #farm-food h2{text-align:center;}
 #farm-food h3{text-align:center;}
 #farm-food p{text-align:center;font-size:16px;}
@@ -59,29 +68,32 @@ iframe{margin:0px 0px 0px 20px;}
 /* 第三段#farm-party開始 */
 #farm-party{
   width:100%;
-  padding:180px 0;margin:90px 0;}
+  margin:90px 0;}
 #farm-party h2{text-align:center;}
 #farm-party h3{text-align:center;}
 #farm-party p{text-align:center;font-size:16px;}
-.info-memo img{width:70%;height:auto;margin:15%;}
+.info-memo img{width:50%;height:auto;margin:25%;}
 .info-memo{padding:25px;}
+.mobile{font-size:20px;width:50%;margin:auto;}
 /* 第三段#farm-party結束 */
 /* 第四段#farm-parterner開始 */
 #farm-parterner{
   width:100%;
-  padding:180px 0;margin:90px 0;}
+  margin:90px 0;}
 #farm-parterner h3{text-align:center;}
-#farm-parterner .img-circle{border:1px solid blue;width:100%;height:100%;}
-#farm-parterner .col-md-3{width:70%;height:70%;margin:0% 15%;}
+#farm-parterner .img-circle{
+border:1px solid blue;width:200px;height:200px;margin:3% 25%;
+}
+
 #farm-parterner h2{text-align:center;}
 #farm-parterner span{color:#B40052;}
 .parterner-part{border:1px solid blue;width:100%;}
-#farm-parterner .col-md-3 p{border:1px solid blue;width:26%;margin:0% 42%;}
+#farm-parterner .col-md-3 p{border:1px solid blue;margin:0% 40%;}
 /* 第四段#farm-parterner結束 */
 /* 第五段#farm-info開始      */
 #farm-info{
   width:100%;
-  padding:180px 0;margin:90px 0;}
+  margin:90px 0;}
 .info-1{border-radius:10px;height:100%;background-color:#FFF4A6;color:#55626f;}
 .info-1 h3{text-align:center;color:#1F2124}
 .info-1 li{text-align;font-size:15px;}
@@ -91,14 +103,14 @@ iframe{margin:0px 0px 0px 20px;}
 /* 第六段#farm-free開始 */
 #farm-free{
   width:100%;
-  padding:180px 0;margin:90px 0;}
+  margin:90px 0;}
 #farm-free h2{text-align:center;}
 #farm-free p{font-size:18px;text-align:center;}
 /* 第六段#farm-free結束 */
 /* 第七段#farm-store開始 */
 #farm-store{
   width:100%;
-  padding:180px 0;margin:90px 0;}
+  margin:90px 0;}
 #farm-store h2{text-align:center;}
 #farm-store p{text-align:center;font-size:18px;}
 #farm-store img{width:70%;margin: 3% 15%}
